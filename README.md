@@ -15,7 +15,7 @@ Este proyecto es una aplicación web interactiva que permite a los usuarios orga
 - **CSS3:** Estilización y diseño visual.
 - **JavaScript:** Lógica para manejar la lista de nombres y realizar
 
-- ## Modo de uso
+## Modo de uso
 
   1. **Campo de entrada y botón para añadir nombres:**
      - El usuario escribe el nombre de un amigo en un campo de texto y lo agrega a la lista haciendo clic en el botón "Añadir".
