@@ -2,7 +2,7 @@
 const contenedor = document.getElementById('listaAmigos');
 const name = document.getElementById('amigo');
 const contenedorSorteo = document.getElementById('resultado');
-const sortear = document.querySelector('.button-draw');
+
 
 const amigos = [];
 
@@ -10,12 +10,14 @@ function agregarAmigo() {
     if (name.value === '') {
         alert('Debes escribir un nombre');   
     }else{
+        if (contenedorSorteo.innerHTML !== '') {
+            contenedorSorteo.innerHTML = '';
+        }  
         const amigo = name.value;
         amigos.push(amigo);
         const li = document.createElement('li');
         li.innerHTML = amigo;
         contenedor.appendChild(li);
-        console.log(amigos);
         name.value = '';
     }
 }
@@ -30,6 +32,5 @@ function sortearAmigo() {
         const li = document.createElement('li');
         li.innerHTML = `El amigo secreto es ${amigoSorteado}`;
         contenedorSorteo.appendChild(li);
-        sortear.disabled = true;
     }
 }
