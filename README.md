@@ -19,9 +19,13 @@ Este proyecto es una aplicación web interactiva que permite a los usuarios orga
 
   1. **Campo de entrada y botón para añadir nombres:**
      - El usuario escribe el nombre de un amigo en un campo de texto y lo agrega a la lista haciendo clic en el botón "Añadir".
+     - ![Image](https://github.com/user-attachments/assets/3eb91c92-a914-4ef4-bd0c-0f53c197efc5)
 
   2. **Lista de nombres:**
      - Los nombres ingresados se muestran en una lista debajo del campo de entrada.
+     - ![Image](https://github.com/user-attachments/assets/3d6e2d49-94df-438a-adcc-655a18342fe3)
 
   3. **Botón de sorteo:**
      - Al hacer clic en "Sortear Amigo", se selecciona aleatoriamente un nombre de la lista y se muestra.
+     - ![Image](https://github.com/user-attachments/assets/51fb4b07-b0a8-4688-8ef8-30211e5f0c8f)
+     - 
